@@ -5,8 +5,7 @@ try:
     result = file1.read()
     print(result)
     file1.close()
-except:
-    FileNotFoundError
+except FileNotFoundError:
     print('Error: The file \'sample.txt\' was not found.')
 
 ### TASK2: Write and append Data to a file:
